@@ -2,8 +2,7 @@
 #walrus-showing {
   display: none;
 }
-
-#seal-fadeIn {
+#seal-fadeOut{
   display: none;
 }
 
@@ -12,22 +11,22 @@
   cursor: pointer;
   color: #0088cc;
 }
-.click-in {
+.click-toggle {
   cursor: pointer;
   color: #0088cc;
 }
 
-.click-out {
+/*.click-out {
   cursor: pointer;
   color: #0088cc;
-}
+}*/
 
-.click-in:hover {
+.click-toggle:hover {
   text-decoration: underline;
 }
 .clickable:hover {
   text-decoration: underline;
 }
-.click-out:hover {
+/*.click-out:hover {
   text-decoration: underline;
-}
+}*/

@@ -6,12 +6,17 @@ $(document).ready(function() {
   // $(".click-in").click(function() {
   //   $("#seal-fadeIn").fadeIn();
   // });
-  $(".click-out").click(function() {
-   $("#seal-fadeOut").fadeOut();
-   });
+  $(".click-toggle").click(function() {
+    $("#seal-fadeIn").fadeToggle();
+    $("#seal-fadeOut").fadeToggle();
+  });
+  //
+  // $(".click-out").click(function() {
+  //  $("#seal-fadeOut").slideUp();
+  //  });
 
-  $(".click-in").click(function() {
-   $("#seal-fadeIn").fadeIn();
-   });
+  // $(".click-in").click(function() {
+  //  $("#seal-fadeIn").slideDown();
+  //  });
 
 });
