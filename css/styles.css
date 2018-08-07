@@ -1,0 +1,33 @@
+
+#walrus-showing {
+  display: none;
+}
+
+#seal-fadeIn {
+  display: none;
+}
+
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+.click-in {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.click-out {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.click-in:hover {
+  text-decoration: underline;
+}
+.clickable:hover {
+  text-decoration: underline;
+}
+.click-out:hover {
+  text-decoration: underline;
+}
